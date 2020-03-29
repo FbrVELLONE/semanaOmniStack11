@@ -59,3 +59,14 @@ Todos as propriedades de uma tag HTML sao passados para o JS como atributos da f
 -Imutabilidade: Por conceitos de performance, nunca podemos incrementar a variavel do de estado diretamente, precisamos precisar sobrepor esse valor apenas
 
 *Em React, nao podem existir coisas em baixo uma da outra sem existir nada envolta! Ex: criar uma tag botao a baixo de um h1, devem estar envoltos por uma div... 
+
+## Mobile
+-No mobile com reactnative nao tem tags com semanticas, qualquer container vai utilisar View e texto Text;
+
+-Para estilizar funciona diferente que o HTML, nao tem-se id para as coisas; tem que se passar o objeto que vai lhe modificar;
+-Display flex por padrao;
+-Tudo seguem camelCase em style
+-Tudo que nao é numero precisa de aspas ao redor
+-Nao existe herança de estilos no mobile
+-Entao cada um teria que ter sua estilizaçao individual
+
